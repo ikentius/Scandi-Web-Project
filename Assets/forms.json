@@ -1,0 +1,48 @@
+{"selectOptionResult":{
+    "None":{
+       "type":"",
+       "ids":[],
+       "labels":[],
+       "text":""
+    },
+    "DVD":{
+       "type": "DVD",
+       "ids" : ["size"],
+       "labels": ["Size(MB)"],
+       "text": "Please, provide size in MB"
+    },
+    "Book":{
+        "type":"Book",
+        "ids":["weight"],
+        "labels":["Weight(KG)"],
+        "text":"Please, provide weight in KG"
+    },
+    "Furniture":{
+        "type":"Furniture",
+        "ids":["height", "width", "length"],
+        "labels":["Height(CM)", "Width(CM)", "Length(CM)"],
+        "text":"Please, provide dimensions in HxWxL"
+    }
+   },
+   "selectValues":[
+       "None","DVD","Book","Furniture"
+   ],
+   "baseFormInputs":
+       [{
+           "id":"sku", 
+           "label":"SKU"
+       },
+       {
+         "id": "name",
+         "label":"Name"
+       },
+       {
+           "id":"price",
+           "label": "Price($)"
+       }
+       ]
+   
+   }
+   
+
+

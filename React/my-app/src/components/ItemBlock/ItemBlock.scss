@@ -1,0 +1,32 @@
+.text{
+    margin:2%;
+    width: max-content;
+  }
+.checkbox-container{
+    width: 7%;
+    margin-right:5%;
+  }
+.spaceholder{
+    flex-basis:10%;
+  }
+
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-basis:70%;
+    margin:5%;
+  }
+.item-block{
+    display:flex;
+    border:solid;
+    min-width: 22%;
+    margin:1%;
+    background-color: #393E46 ;
+    border-color: #00ADB5;
+  }
+.delete-checkbox{
+   margin-top:50%;
+   margin-left:120%;
+   width:10px;
+  }

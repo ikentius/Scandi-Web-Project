@@ -1,0 +1,21 @@
+.items-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .loading-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item-icon{
+   color:#00ADB5;
+  }
+  
